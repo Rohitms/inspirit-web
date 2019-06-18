@@ -19,7 +19,12 @@ a {
   font-family: 'TruenoRegular';
   color: white;
 }
-
+.Nav-items a {
+  padding-left: 10px;
+}
+a:hover {
+  color: red !important;
+}
 img {
   max-width: 80%;
   height: auto;
