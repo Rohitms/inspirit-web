@@ -4,7 +4,7 @@ export default class ContactForm extends React.Component {
   render() {
     return (
       <div className="Contactform">
-        <form method="POST" netlify>
+        <form name="contact" method="POST" data-netlify="true">
           <div className="FormTitle">Name</div>
           <input type="text" name="name" placeholder="" />
           <div className="FormTitle">Email</div>
@@ -16,9 +16,7 @@ export default class ContactForm extends React.Component {
           <div className="FormTitle">Message</div>
           <textarea type="text" name="message" />
           <div className="FormTitle ">
-            <button className="cfbutton" type="submit">
-              Send
-            </button>
+            <input className="cfbutton" type="submit" />
           </div>
         </form>
       </div>
