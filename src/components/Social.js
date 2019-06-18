@@ -8,7 +8,9 @@ export default class Social extends React.Component {
     return (
       <div className="Social">
         <div className="Soc-fb">
-          <img src={fb} alt="fb" />
+          <a href="https://www.facebook.com/inspiritdesignz/">
+            <img src={fb} alt="fb" />
+          </a>
         </div>
         <div className="Soc-ig">
           <a href="https://www.instagram.com/designsinspirit/">
