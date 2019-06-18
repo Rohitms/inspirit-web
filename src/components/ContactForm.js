@@ -4,7 +4,7 @@ export default class ContactForm extends React.Component {
   render() {
     return (
       <div className="Contactform">
-        <form data-netlify="true" method="POST">
+        <form method="POST" data-netlify="true">
           <div className="FormTitle">Name</div>
           <input type="text" name="name" placeholder="" />
           <div className="FormTitle">Email</div>
