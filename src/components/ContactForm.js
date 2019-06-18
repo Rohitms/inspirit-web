@@ -16,7 +16,9 @@ export default class ContactForm extends React.Component {
           <div className="FormTitle">Message</div>
           <textarea type="text" name="message" />
           <div className="FormTitle ">
-            <input className="cfbutton" type="submit" value="Send" />
+            <button className="cfbutton" type="submit">
+              Send
+            </button>
           </div>
         </form>
       </div>
