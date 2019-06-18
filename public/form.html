@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact</title>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  </head>
+  <body>
+    <!-- A little help for the Netlify bots if you're not using a SSG -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" /> <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
+
+    <div id="root"></div>
+    <script type="text/babel">
+      ReactDOM.render(
+        <form name="contact" method="post">
+          <div className="FormTitle">Name</div>
+          <input type="text" name="name" placeholder="" />
+          <div className="FormTitle">Email</div>
+          <input type="email" name="email" />
+          <div className="FormTitle">Number</div>
+          <input type="tel" name="number" />
+          <div className="FormTitle">Subject</div>
+          <input type="text" name="subject" />
+          <div className="FormTitle">Message</div>
+          <textarea type="text" name="message" />
+          <div data-netlify-recaptcha="true" />
+          <div className="FormTitle ">
+            <input className="cfbutton" type="submit" />
+          </div>
+        </form>,
+        document.getElementById('root')
+      )
+    </script>
+  </body>
+</html>
