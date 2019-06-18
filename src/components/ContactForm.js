@@ -15,6 +15,7 @@ export default class ContactForm extends React.Component {
           <input type="text" name="subject" />
           <div className="FormTitle">Message</div>
           <textarea type="text" name="message" />
+          <div data-netlify-recaptcha="true" />
           <div className="FormTitle ">
             <input className="cfbutton" type="submit" />
           </div>
