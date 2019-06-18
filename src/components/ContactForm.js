@@ -4,14 +4,11 @@ export default class ContactForm extends React.Component {
   render() {
     return (
       <div className="Contactform">
-        <form
-          action="https://formspree.io/inspiritdesignsinc@gmail.com"
-          method="POST"
-        >
+        <form data-netlify="true" method="POST">
           <div className="FormTitle">Name</div>
           <input type="text" name="name" placeholder="" />
           <div className="FormTitle">Email</div>
-          <input type="email" name="_replyto" />
+          <input type="email" name="email" />
           <div className="FormTitle">Number</div>
           <input type="tel" name="number" />
           <div className="FormTitle">Subject</div>
