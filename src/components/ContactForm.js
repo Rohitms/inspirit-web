@@ -4,7 +4,12 @@ export default class ContactForm extends React.Component {
   render() {
     return (
       <div className="Contactform">
-        <form name="contact" method="POST" data-netlify="true">
+        <form
+          name="contact"
+          method="POST"
+          data-netlify-recaptcha="true"
+          data-netlify="true"
+        >
           <div className="FormTitle">Name</div>
           <input type="text" name="name" placeholder="" />
           <div className="FormTitle">Email</div>
