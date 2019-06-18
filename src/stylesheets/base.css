@@ -1,0 +1,41 @@
+html {
+  min-height: 100%; /* make sure it is at least as tall as the viewport */
+  position: relative;
+  background-color: black;
+  color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  width: 100%;
+  height: 100%;
+  letter-spacing: -0.024em;
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.root {
+  width: 100%;
+  height: auto;
+}
+.container {
+  font-family: 'TruenoRegular';
+  font-weight: 500;
+  color: white;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: -1; /* Remove this line if it's not going to be a background! */
+}

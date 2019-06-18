@@ -1,0 +1,27 @@
+.NavBar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 50px 20px 50px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.Nav-items {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'TruenoRegular';
+  color: white;
+}
+
+img {
+  max-width: 80%;
+  height: auto;
+  color: white;
+}

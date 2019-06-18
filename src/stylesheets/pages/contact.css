@@ -1,0 +1,30 @@
+.Contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: 'TruenoRegular';
+  margin: 10px;
+  color: white;
+  height: 800px;
+}
+
+.CDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: right;
+  padding: 50px;
+  margin: 10px;
+  width: 400px;
+}
+.Ctitle {
+  color: grey;
+  font-size: 15px;
+  font-weight: 400;
+}
+.Ccont {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 60px;
+}

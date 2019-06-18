@@ -1,0 +1,16 @@
+.Hero-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70%;
+  align-items: center;
+  font-size: 100px;
+  font-weight: 900;
+}
+.Hero1 {
+}
+.Hero2 {
+  color: red;
+}
+.hero {
+}

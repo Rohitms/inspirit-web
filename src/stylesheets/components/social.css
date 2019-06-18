@@ -1,0 +1,13 @@
+.Social {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.Soc-ig {
+  margin: 20px;
+}
+.Soc-fb {
+  margin: 20px;
+}
