@@ -18,9 +18,11 @@ a {
   justify-content: space-between;
   font-family: 'TruenoRegular';
   color: white;
+  line-height: 50px;
+  transition: 1.5s;
 }
 .Nav-items a {
-  padding-left: 10px;
+  margin-left: 10px;
 }
 a:hover {
   color: red !important;
@@ -29,4 +31,27 @@ img {
   max-width: 80%;
   height: auto;
   color: white;
+}
+a {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
+  margin-right: 10px;
+}
+a:last-child {
+  margin-right: 0;
+}
+
+a:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  transition: width 0.3s ease, background-color 0.5s ease;
+}
+a:hover:after {
+  width: 100%;
+  background: red;
 }
