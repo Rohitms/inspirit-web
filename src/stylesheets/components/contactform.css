@@ -45,5 +45,6 @@ textarea {
 
 .cfbutton:hover {
   background-color: red;
-  color: white;
+  color: black;
+  border: 1px solid red;
 }
