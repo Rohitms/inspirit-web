@@ -55,3 +55,6 @@ a:hover:after {
   width: 100%;
   background: red;
 }
+.logo a:hover:after {
+  background: transparent;
+}
